@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from app.db import get_db_connection
-from app.routes import router
+from db import get_db_connection
+from routes import router
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
